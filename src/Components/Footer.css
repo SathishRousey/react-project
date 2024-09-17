@@ -1,0 +1,19 @@
+footer{
+    display: grid;
+grid-template-columns: repeat(4,1fr);
+background-color: black;
+padding: 20px;
+grid-gap: 10px;}
+.heading{
+  color: gray;
+  margin-bottom: 10px;
+}
+.lists{
+    color: white;
+    list-style-type: none;
+    transition: 2s;
+    margin-top: 10px;
+}
+.lists:hover{
+    color: orangered;
+}
